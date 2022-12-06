@@ -1,9 +1,31 @@
 *{
 
-    background-color: darkgrey;
+  
+   
+}
+body{
+    background-color: rgb(202, 202, 202);
 }
 
 main{
     text-indent: 30px;
+    width: 70%;
+    margin: auto;
+    border-color: black;
+    background-color: aliceblue;
     
+}
+.navegacao{
+    background-color: cadetblue;
+}
+p{
+    margin: 0px;
+}
+
+header{
+    border-color: black;
+}
+
+footer{
+    background-color: black;
 }
