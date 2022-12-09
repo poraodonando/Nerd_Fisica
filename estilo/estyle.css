@@ -3,9 +3,18 @@
   
    
 }
+
 body{
     background-color: rgb(202, 202, 202);
 }
+
+img{
+    width: 100%;
+}
+.img_logo{
+    width: 20%;
+}
+
 
 main{
     text-indent: 30px;
