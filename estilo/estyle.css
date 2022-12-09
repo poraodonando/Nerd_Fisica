@@ -9,19 +9,47 @@ body{
 }
 
 img{
-    width: 100%;
+    margin: auto;
+    display: block;
+    width: 90%;
 }
-.img_logo{
-    width: 20%;
+.img_formulacode{
+    max-width: 100%;
+}
+
+div >.img_logo{
+    
+    height: 50%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.texto_intro .img_logo p{
+    display: flex;
+    padding: 20px;
+    
+}
+p{
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+
+
+article{
+    display: flex;
 }
 
 
 main{
     text-indent: 30px;
     width: 70%;
-    margin: auto;
+    margin: auto ;
     border-color: black;
     background-color: aliceblue;
+    padding: 20px;
+    
     
 }
 .navegacao{
