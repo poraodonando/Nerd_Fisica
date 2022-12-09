@@ -1,19 +1,20 @@
 *{
 
-  
+    margin: 0px;
    
 }
 
 body{
     background-color: rgb(202, 202, 202);
+    background-image: linear-gradient(180deg, white, rgb(218, 218, 218), blue );
 }
 
 img{
     margin: auto;
     display: block;
-    width: 90%;
+    
 }
-.img_formulacode{
+.formula_code{
     max-width: 100%;
 }
 
@@ -28,6 +29,7 @@ div >.img_logo{
 .texto_intro .img_logo p{
     display: flex;
     padding: 20px;
+    justify-content: center;
     
 }
 p{
@@ -66,4 +68,5 @@ header{
 footer{
     background-color: black;
     color: white;
+    
 }
